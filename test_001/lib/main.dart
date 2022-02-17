@@ -5,6 +5,7 @@ import 'screens/main_screen.dart';
 import 'screens/welcome_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
