@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:test_001/utils/assets.dart';
 
 class RegisterScreen extends StatefulWidget {
-  RegisterScreen({Key? key}) : super(key: key);
+  const RegisterScreen({Key? key}) : super(key: key);
 
   @override
   State<RegisterScreen> createState() => _RegisterScreenState();
